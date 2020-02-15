@@ -1,11 +1,12 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "tfar.cullparticles.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "MixinParticleManager",
+    "MixinWorldRenderer"
   ],
   "injectors": {
     "defaultRequire": 1
